@@ -6,11 +6,14 @@ vi:
       home: "Trang chủ"
       help: "Hỗ  trợ"
       login: "Đăng nhập"
+      app: "Sample App"
     footer:
       about: "Giới thiệu"
       contact: "Liên hệ"
       news: "Tin tức"
       by: "viết bởi"
+      author: "Michael Hartl"
+      book: "Huong dan Ruby on Rails"
   static_pages:
     home:
       heading: "Trang chủ"

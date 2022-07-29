@@ -7,11 +7,14 @@ en:
       home: "Home"
       help: "Help"
       login: "Log in"
+      app: "sample app"
     footer:
       about: "About"
       contact: "Contact"
       news: "News"
       by: "by"
+      author: "Michael Hartl"
+      book: "Ruby on Rails Tutorial"
   static_pages:
     home:
       heading: "Home"
