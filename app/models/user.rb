@@ -10,11 +10,10 @@ class User < ApplicationRecord
     format: {with: Settings.regex.email_regex},
     uniqueness: {case_sensitive: false}
 
+  has_secure_password
   validates :password, presence: true,
     length: {minimum: Settings.validates.password_min_length},
     if: :password
-
-  has_secure_password
 
   private
   def downcase_email
