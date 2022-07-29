@@ -3,6 +3,7 @@ git_source(:github){|repo| "https://github.com/#{repo}.git"}
 
 ruby "3.1.2"
 
+gem "bcrypt", "3.1.13"
 gem "bootsnap", ">= 1.4.4", require: false
 gem "bootstrap-sass", "3.4.1"
 gem "config"
@@ -11,6 +12,7 @@ gem "mysql2", "~> 0.5.3"
 gem "net-imap", require: false
 gem "net-pop", require: false
 gem "net-smtp", require: false
+gem "pry-rails"
 gem "puma", "~> 5.0"
 gem "rails", "~> 6.1.6", ">= 6.1.6.1"
 gem "rails-i18n"

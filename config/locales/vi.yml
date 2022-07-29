@@ -1,16 +1,25 @@
 vi:
   base_title: "Ruby on Rails Tutorial Sample App"
   sample_app: "Sample App"
+  welcome: "Chào mừng đến với Sample App"
   layouts:
     header:
       home: "Trang chủ"
       help: "Hỗ  trợ"
+      users: "Người dùng"
       login: "Đăng nhập"
+      logout: "Đăng xuất"
+      profile: "Hồ sơ"
+      account: "Tài khoản"
+      settings: "Cài đặt"
+      app: "Sample App"
     footer:
       about: "Giới thiệu"
       contact: "Liên hệ"
       news: "Tin tức"
       by: "viết bởi"
+      author: "Michael Hartl"
+      tutor: "Hướng dẫn Ruby on Rails"
   static_pages:
     home:
       heading: "Trang chủ"
@@ -46,3 +55,21 @@ vi:
     new:
       signup: "Đăng ký"
       intro: "Trang đăng ký cho người dùng mới."
+      name: "Tên"
+      email: "Địa chỉ email"
+      password: "Password"
+      password_confirmation: "Nhập lại password"
+      create: "Đăng ký tài khoản"
+  shared:
+    error_messages:
+      intro: "Biểu mẫu có"
+      error: "lỗi"
+  sessions:
+    new:
+      login: "Đăng nhập"
+      email: "Địa chỉ email"
+      password: "Password"
+      signup: "Đăng ký ngay!"
+      new_user: "Người dùng mới?"
+    create:
+      invalid_email_password_combination: "Email và password không trùng khớp"

@@ -2,16 +2,25 @@ en:
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
   sample_app: "Sample App"
+  welcome: "Welcome to Sample App"
   layouts:
     header:
       home: "Home"
       help: "Help"
+      users: "Users"
       login: "Log in"
+      logout: "Log out"
+      profile: "Profile"
+      account: "Account"
+      settings: "Settings"
+      app: "Sample App"
     footer:
       about: "About"
       contact: "Contact"
       news: "News"
       by: "by"
+      author: "Michael Hartl"
+      tutor: "Ruby on Rails Tutorial"
   static_pages:
     home:
       heading: "Home"
@@ -47,3 +56,21 @@ en:
     new:
       signup: "Sign up"
       intro: "Sign up page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirm password"
+      create: "Create my account"
+  shared:
+    error_messages:
+      intro: "The form contains"
+      error: "error"
+  sessions:
+    new:
+      login: "Log in"
+      email: "Email"
+      password: "Password"
+      signup: "Sign up now!"
+      new_user: "New user?"
+    create:
+      invalid_email_password_combination: "Invalid email/password combination"
