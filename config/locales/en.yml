@@ -2,6 +2,7 @@ en:
   hello: "Hello world"
   base_title: "Ruby on Rails Tutorial Sample App"
   sample_app: "Sample App"
+  welcome: "Welcome to Sample App"
   layouts:
     header:
       home: "Home"
@@ -50,3 +51,12 @@ en:
     new:
       signup: "Sign up"
       intro: "Sign up page for new users."
+      name: "Name"
+      email: "Email"
+      password: "Password"
+      password_confirmation: "Confirm password"
+      create: "Create my account"
+  shared:
+    error_messages:
+      intro: "The form contains"
+      error: "error"
