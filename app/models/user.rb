@@ -15,7 +15,7 @@ class User < ApplicationRecord
   has_secure_password
   validates :password, presence: true,
     length: {minimum: Settings.validates.password_min_length},
-    if: :password
+    allow_nil: true
 
   class << self
     def new_token
